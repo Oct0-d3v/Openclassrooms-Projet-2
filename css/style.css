@@ -132,6 +132,46 @@ p {
     text-align: center;
     border: none;
 }
+/****** Filtres ***********/
+.filtres {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.filtres button {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    height: 50px;
+    border: 2px #F2F2F2 solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.filtres button:hover {
+    background-color: #DEEBFF;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fa-info {
+    border: 1px #F2F2F2 solid;
+    border-radius: 12px;
+    font-size: 10px;
+    padding: 6px;
+    margin-right: 10px;
+}
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
