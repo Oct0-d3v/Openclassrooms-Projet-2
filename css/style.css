@@ -36,6 +36,14 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 16px;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -68,7 +76,7 @@ a {
 .logo img {
     width: 61.09px;
     height: 19px;
-    margin: 30px 50px 30px 50px;
+    margin: 30px 50px 30px 0px;
     display: flex;
 }
 .menu {
@@ -85,6 +93,44 @@ a {
 .menu a:hover {
     border-top: 2px #0065FC solid;
     color: #0065FC;
+}
+
+/****** Recherche ***********/
+.recherche form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 35px 0px 35px 0px;
+}
+
+.recherche label {
+    border: 1px #F2F2F2 solid;
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recherche input {
+    border: 1px #F2F2F2 solid;
+    width: 195px;
+    height: 49px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.recherche button {
+    border-radius: 0 15px 15px 0;
+    width: 132px;
+    background-color: #0065FC;
+    color: #DEEBFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
 }
 
 /****** Hebergements And Populaires ***********/
