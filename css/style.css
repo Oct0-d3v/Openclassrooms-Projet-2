@@ -93,6 +93,7 @@ p {
 }
 
 .menu a {
+    border-top: 2px #ffffff solid;
     padding-top: 16px;
     margin-left: 34px;
     margin-right: 34px;
@@ -134,7 +135,7 @@ p {
     border-radius: 0 15px 15px 0;
     width: 132px;
     background-color: #0065FC;
-    color: #DEEBFF;
+    color: #ffffff;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
@@ -159,7 +160,11 @@ p {
     height: 50px;
     border: 2px #F2F2F2 solid;
     border-radius: 25px;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+.filtres .fa-solid {
+    margin-right: 10px;
 }
 
 .filtres button:hover {
