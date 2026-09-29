@@ -112,6 +112,10 @@ p {
     margin: 35px 0px 35px 0px;
 }
 
+.fa-location-dot {
+    color: black;
+}
+
 .recherche label {
     border: 1px #F2F2F2 solid;
     background-color: #F2F2F2;
@@ -180,9 +184,8 @@ p {
 
 .fa-info {
     border: 1px #F2F2F2 solid;
-    border-radius: 12px;
-    font-size: 10px;
-    padding: 6px;
+    border-radius: 30px;
+    padding: 12px 10px 12px 10px;
     margin-right: 10px;
 }
 
@@ -221,12 +224,23 @@ p {
 }
 
 .hebergements-cards .card-content {
-    height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-sizing: border-box;
     margin-left: 15px;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 8px;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0px 0px 5px 0px;
 }
 
 /****** Populaires ***********/
