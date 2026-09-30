@@ -87,19 +87,19 @@ p {
     margin: 30px 50px 30px 0px;
     display: flex;
 }
-.menu {
+.nav {
     display: flex;
     flex-direction: row;
 }
 
-.menu a {
+.nav a {
     border-top: 2px #ffffff solid;
     padding-top: 16px;
     margin-left: 34px;
     margin-right: 34px;
 }
 
-.menu a:hover {
+.nav a:hover {
     border-top: 2px #0065FC solid;
     color: #0065FC;
 }
@@ -292,6 +292,11 @@ p {
 .activites {
     margin: 30px;
 }
+
+.activites .card {
+    padding: 0px;
+}
+
 .activites-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -307,7 +312,8 @@ p {
 }
 
 .activites-cards .card-content {
-    margin-left: 15px;
+    display: flex;
+    padding-left: 15px;
 }
 
 /****** Footer ***********/
