@@ -176,6 +176,12 @@ p {
     padding: 10px 20px 10px 20px;
 }
 
+.button-filtre {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    }
+
 .filtres .fa-solid {
     margin-right: 10px;
 }
@@ -357,6 +363,12 @@ p {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .filtres {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
         margin-bottom: 35px;
@@ -496,4 +508,87 @@ p {
         grid-template-rows: 1fr 1fr;
         gap: 20px 10px;
     }
-}
+
+    /****** Hebergements And Populaires ***********/
+    .hebergements-and-populaires {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hebergements-and-populaires section {
+        border-radius: 0px;
+    }
+
+    /****** Populaires ***********/
+    .populaires {
+        width: 100%;
+        margin: 0;
+    }
+
+    .populaires-cards  {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+
+    .populaires-cards .card-title {
+        font-size: 16px;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 14px;
+    }
+
+    /****** Hebergements ***********/
+    .hebergements {
+        width: 100%;
+    }
+
+    #hebergements {
+        background-color: white;
+        margin-top: 15px;
+        padding: 0 20px 0 20px;
+    }
+
+    .hebergements-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        margin: 15px 0;
+    }
+
+    /****** Hebergements ***********/
+    .activites {
+        margin: 35px 0 0 0;
+        padding: 30px;
+    }
+
+    .activites-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 30px 0 0 0;
+    }
+
+    .activites-cards img {
+        height: 141px;
+    }
+
+    .activites-cards .card-content {
+        height: 30%;
+    }
+
+    .activites .card {
+        height: 200px;
+    }
+
+    /****** Hebergements ***********/
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
